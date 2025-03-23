@@ -1101,16 +1101,76 @@ html {
   height: auto;
   padding: 60px 20px 20px;
   background-color: var(--raxwebsitecod-gray);
+  color: var(--raxwebsitenero);
 }
 
-.main .paragraph {
+.main .footer .overlap {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main .footer .paragraph {
   position: relative;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto 40px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.main .footer .text-wrapper,
+.main .footer .text-wrapper-3 {
+  font-family: var(--DM-mono-medium-18-font-family);
+  font-weight: var(--DM-mono-medium-18-font-weight);
+  color: var(--raxwebsitenero);
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.main .footer .link-bravely-mental,
+.main .footer .link-legend-do-more,
+.main .footer .text-wrapper-2,
+.main .footer .link-linkedin,
+.main .footer .link-medium,
+.main .footer .link-upwork {
+  font-family: var(--familjen-grotesk-regular-21-font-family);
+  font-size: 16px;
+  color: var(--raxwebsitealto);
+  margin-bottom: 10px;
+  transition: color 0.2s ease;
+}
+
+.main .footer a:hover div,
+.main .footer a:hover p {
+  color: var(--raxwebsitepixie-green);
+}
+
+.main .footer .container {
+  position: relative;
+  width: 100%;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.main .footer .made-by-melissa-ng {
+  font-family: var(--inter-regular-16-font-family);
+  font-size: 14px;
+  color: var(--raxwebsitedusty-gray);
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .main .footer .paragraph {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .main .footer {
+    padding: 40px 20px 20px;
+  }
 }
 
 /* ===== RESPONSIVE STYLES ===== */
