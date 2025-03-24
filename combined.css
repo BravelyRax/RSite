@@ -14,7 +14,7 @@ html, body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  background-color: var(--raxwebsitemallard);
+  background-color: var(--mallard);
 }
 
 button:focus-visible {
@@ -39,28 +39,28 @@ html {
 /* ===== CSS VARIABLES ===== */
 :root {
   /* Colors */
-  --raxwebsitemallard: rgba(37, 70, 32, 1);
-  --raxwebsitenero: rgba(255, 255, 255, 1);
-  --raxwebsitefern-green: rgba(66, 120, 59, 1);
-  --raxwebsitepixie-green: rgba(178, 213, 174, 1);
-  --raxwebsiteblack: rgba(0, 0, 0, 1);
-  --raxwebsiteseaweed: rgba(19, 40, 16, 1);
-  --raxwebsitepeppermint: rgba(242, 250, 240, 1);
-  --raxwebsitela-palma: rgba(40, 148, 25, 1);
-  --raxwebsiteottoman: rgba(241, 250, 240, 1);
-  --raxwebsiteshark: rgba(26, 29, 37, 1);
-  --raxwebsitemirage: rgba(22, 28, 39, 1);
-  --raxwebsitejapanese-laurel: rgba(255, 144, 0, 1);
-  --raxwebsitebunker: rgba(19, 24, 32, 1);
-  --raxwebsitemine-shaft: rgba(34, 34, 34, 1);
-  --raxwebsitealto: rgba(212, 212, 212, 1);
-  --raxwebsiteconcrete: rgba(242, 242, 242, 1);
-  --raxwebsiteblack-50: rgba(0, 0, 0, 0.5);
-  --raxwebsitecod-gray: rgba(17, 17, 17, 1);
-  --raxwebsitedusty-gray: rgba(153, 153, 153, 1);
-  --raxwebsitenero-20: rgba(255, 255, 255, 0.2);
-  --raxwebsiteblack-5: rgba(0, 0, 0, 0.05);
-  --raxwebsitethunder: rgba(35, 31, 32, 1);
+  --mallard: rgba(37, 70, 32, 1);
+  --nero: rgba(255, 255, 255, 1);
+  --fern-green: rgba(66, 120, 59, 1);
+  --pixie-green: rgba(178, 213, 174, 1);
+  --black: rgba(0, 0, 0, 1);
+  --seaweed: rgba(19, 40, 16, 1);
+  --peppermint: rgba(242, 250, 240, 1);
+  --la-palma: rgba(40, 148, 25, 1);
+  --ottoman: rgba(241, 250, 240, 1);
+  --shark: rgba(26, 29, 37, 1);
+  --mirage: rgba(22, 28, 39, 1);
+  --japanese-laurel: rgba(255, 144, 0, 1);
+  --bunker: rgba(19, 24, 32, 1);
+  --mine-shaft: rgba(34, 34, 34, 1);
+  --alto: rgba(212, 212, 212, 1);
+  --concrete: rgba(242, 242, 242, 1);
+  --black-50: rgba(0, 0, 0, 0.5);
+  --cod-gray: rgba(17, 17, 17, 1);
+  --dusty-gray: rgba(153, 153, 153, 1);
+  --nero-20: rgba(255, 255, 255, 0.2);
+  --black-5: rgba(0, 0, 0, 0.05);
+  --thunder: rgba(35, 31, 32, 1);
   
   /* Typography - DM Mono */
   --DM-mono-regular-84-font-family: "DM Mono", Helvetica;
@@ -184,7 +184,7 @@ html {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
-  background-color: var(--raxwebsitemallard);
+  background-color: var(--mallard);
 }
 
 .main .div {
@@ -273,7 +273,7 @@ html {
 .main .heading-rackley {
   font-family: var(--DM-mono-regular-84-font-family);
   font-weight: var(--DM-mono-regular-84-font-weight);
-  color: var(--raxwebsitenero);
+  color: var(--nero);
   font-size: var(--DM-mono-regular-84-font-size);
   letter-spacing: var(--DM-mono-regular-84-letter-spacing);
   line-height: var(--DM-mono-regular-84-line-height);
@@ -285,7 +285,7 @@ html {
 .main .heading-PRODUCT {
   font-family: var(--DM-mono-medium-21-font-family);
   font-weight: var(--DM-mono-medium-21-font-weight);
-  color: var(--raxwebsitenero);
+  color: var(--nero);
   font-size: var(--DM-mono-medium-21-font-size);
   letter-spacing: var(--DM-mono-medium-21-letter-spacing);
   line-height: var(--DM-mono-medium-21-line-height);
@@ -310,7 +310,7 @@ html {
 .main .text-wrapper-16 {
   font-family: var(--DM-mono-medium-16-font-family);
   font-weight: var(--DM-mono-medium-16-font-weight);
-  color: var(--raxwebsitenero);
+  color: var(--nero);
   font-size: var(--DM-mono-medium-16-font-size);
   letter-spacing: var(--DM-mono-medium-16-letter-spacing);
   line-height: var(--DM-mono-medium-16-line-height);
@@ -321,7 +321,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--raxwebsitenero);
+  background-color: var(--nero);
   border-radius: 8px;
   padding: 10px 20px;
   cursor: pointer;
@@ -336,7 +336,7 @@ html {
 .main .text-wrapper-17 {
   font-family: var(--DM-mono-medium-16-font-family);
   font-weight: var(--DM-mono-medium-16-font-weight);
-  color: var(--raxwebsiteblack);
+  color: var(--black);
   font-size: var(--DM-mono-medium-16-font-size);
   letter-spacing: var(--DM-mono-medium-16-letter-spacing);
   line-height: var(--DM-mono-medium-16-line-height);
@@ -352,19 +352,19 @@ html {
 .main .heading-RACKLEY {
   font-family: var(--inter-bold-18-font-family);
   font-weight: var(--inter-bold-18-font-weight);
-  color: var(--raxwebsitenero);
+  color: var(--nero);
   font-size: var(--inter-bold-18-font-size);
   letter-spacing: var(--inter-bold-18-letter-spacing);
   line-height: var(--inter-bold-18-line-height);
 }
 
-/* ===== KIA ORA SECTION ===== */
-.main .kia-ora {
+/* ===== KIA ORA SECTION (Now HI THERE) ===== */
+.main .hi-there {
   position: relative;
   width: 100%;
   height: auto;
   padding: 60px 0;
-  margin: 0;
+  background-color: var(--mallard);
 }
 
 .main .intro {
@@ -376,20 +376,20 @@ html {
   padding: 0;
 }
 
-.main .heading-KIA-ORA-wrapper {
+.main .heading-hi-there-wrapper {
   position: relative;
   width: 100%;
   max-width: 640px;
   height: auto;
 }
 
-.main .heading-KIA-ORA {
+.main .heading-hi-there {
   position: relative;
   width: auto;
   height: auto;
   font-family: var(--antonio-regular-64-font-family);
   font-weight: var(--antonio-regular-64-font-weight);
-  color: var(--raxwebsitefern-green);
+  color: var(--fern-green);
   font-size: var(--antonio-regular-64-font-size);
   letter-spacing: var(--antonio-regular-64-letter-spacing);
   line-height: var(--antonio-regular-64-line-height);
@@ -401,7 +401,7 @@ html {
   margin: 20px 0;
   font-family: var(--DM-mono-medium-32-font-family);
   font-weight: var(--DM-mono-medium-32-font-weight);
-  color: var(--raxwebsitenero);
+  color: var(--nero);
   font-size: var(--DM-mono-medium-32-font-size);
   letter-spacing: var(--DM-mono-medium-32-letter-spacing);
   line-height: var(--DM-mono-medium-32-line-height);
@@ -412,7 +412,7 @@ html {
   width: 100%;
   font-family: var(--familjen-grotesk-regular-21-font-family);
   font-weight: var(--familjen-grotesk-regular-21-font-weight);
-  color: var(--raxwebsitepixie-green);
+  color: var(--pixie-green);
   font-size: var(--familjen-grotesk-regular-21-font-size);
   letter-spacing: var(--familjen-grotesk-regular-21-letter-spacing);
   line-height: var(--familjen-grotesk-regular-21-line-height);
@@ -424,7 +424,7 @@ html {
   justify-content: center;
   padding: 14px 28px;
   margin-top: 30px;
-  background-color: var(--raxwebsiteblack);
+  background-color: var(--black);
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.2s ease, background-color 0.2s ease;
@@ -438,7 +438,7 @@ html {
 .main .text-wrapper-14 {
   font-family: var(--DM-mono-medium-18-font-family);
   font-weight: var(--DM-mono-medium-18-font-weight);
-  color: var(--raxwebsitenero);
+  color: var(--nero);
   font-size: var(--DM-mono-medium-18-font-size);
   letter-spacing: var(--DM-mono-medium-18-letter-spacing);
   line-height: var(--DM-mono-medium-18-line-height);
@@ -449,7 +449,7 @@ html {
   position: relative;
   width: 100%;
   height: auto;
-  background-color: var(--raxwebsitemallard);
+  background-color: var(--mallard);
   padding: 60px 0;
 }
 
@@ -499,7 +499,7 @@ html {
   width: 100%;
   font-family: var(--antonio-regular-64-font-family);
   font-weight: var(--antonio-regular-64-font-weight);
-  color: var(--raxwebsitemallard);
+  color: var(--mallard);
   font-size: var(--antonio-regular-64-font-size);
   opacity: 1;
   margin-bottom: 20px;
@@ -528,7 +528,7 @@ html {
 .main .heading-product {
   font-family: var(--DM-mono-medium-32-font-family);
   font-weight: var(--DM-mono-medium-32-font-weight);
-  color: var(--raxwebsitemallard);
+  color: var(--mallard);
   font-size: var(--DM-mono-medium-32-font-size);
   letter-spacing: var(--DM-mono-medium-32-letter-spacing);
   line-height: var(--DM-mono-medium-32-line-height);
@@ -544,7 +544,7 @@ html {
 .main .p {
   font-family: var(--familjen-grotesk-regular-21-font-family);
   font-weight: var(--familjen-grotesk-regular-21-font-weight);
-  color: var(--raxwebsiteblack);
+  color: var(--black);
   font-size: var(--familjen-grotesk-regular-21-font-size);
   letter-spacing: var(--familjen-grotesk-regular-21-letter-spacing);
   line-height: var(--familjen-grotesk-regular-21-line-height);
@@ -613,7 +613,7 @@ html {
   width: auto;
   font-family: var(--antonio-regular-64-font-family);
   font-weight: var(--antonio-regular-64-font-weight);
-  color: var(--raxwebsitefern-green);
+  color: var(--fern-green);
   font-size: var(--antonio-regular-64-font-size);
   opacity: 0.5;
   margin-bottom: 30px;
@@ -639,7 +639,7 @@ html {
   width: auto;
   font-family: var(--antonio-regular-64-font-family);
   font-weight: var(--antonio-regular-64-font-weight);
-  color: var(--raxwebsitefern-green);
+  color: var(--fern-green);
   font-size: var(--antonio-regular-64-font-size);
   opacity: 0.5;
   margin-bottom: 0;
@@ -654,7 +654,7 @@ html {
 .main .i-bring-a-cross {
   font-family: var(--familjen-grotesk-regular-21-font-family);
   font-weight: var(--familjen-grotesk-regular-21-font-weight);
-  color: var(--raxwebsiteblack);
+  color: var(--black);
   font-size: var(--familjen-grotesk-regular-21-font-size);
   line-height: 1.5;
 }
@@ -675,7 +675,7 @@ html {
   position: relative;
   min-height: 260px;
   padding: 30px;
-  background-color: var(--raxwebsitepeppermint);
+  background-color: var(--peppermint);
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
@@ -713,7 +713,7 @@ html {
 .main .heading-head-of {
   font-family: var(--DM-mono-regular-21-font-family);
   font-weight: var(--DM-mono-regular-21-font-weight);
-  color: var(--raxwebsiteblack);
+  color: var(--black);
   font-size: 24px;
   margin-bottom: 8px;
   line-height: 1.3;
@@ -723,7 +723,7 @@ html {
 .main .text-wrapper-13 {
   font-family: var(--DM-mono-regular-21-font-family);
   font-weight: var(--DM-mono-regular-21-font-weight);
-  color: var(--raxwebsitemallard);
+  color: var(--mallard);
   font-size: 18px;
   margin-top: 0;
   line-height: 1.4;
@@ -734,7 +734,7 @@ html {
 .main .focused-on {
   font-family: var(--familjen-grotesk-regular-21-font-family);
   font-weight: var(--familjen-grotesk-regular-21-font-weight);
-  color: var(--raxwebsiteblack);
+  color: var(--black);
   font-size: var(--familjen-grotesk-regular-21-font-size);
   line-height: 1.6;
   margin-top: 0;
@@ -830,7 +830,7 @@ html {
   width: 100%;
   height: auto;
   padding: 60px 20px;
-  background-color: var(--raxwebsitemallard);
+  background-color: var(--mallard);
 }
 
 .main .testimonials-container {
@@ -859,7 +859,7 @@ html {
 .main .through-the-times-we,
 .main .i-can-t-recommend {
   font-family: var(--familjen-grotesk-regular-21-font-family);
-  color: var(--raxwebsitepixie-green);
+  color: var(--pixie-green);
   font-size: var(--familjen-grotesk-regular-21-font-size);
   line-height: 1.6;
   margin-bottom: 20px;
@@ -868,7 +868,7 @@ html {
 .main .text-wrapper-9,
 .main .text-wrapper-10 {
   font-family: var(--DM-mono-medium-18-font-family);
-  color: var(--raxwebsitenero);
+  color: var(--nero);
   font-size: var(--DM-mono-medium-18-font-size);
   letter-spacing: 0.5px;
   margin-top: 20px;
@@ -876,11 +876,11 @@ html {
 }
 
 /* ===== ABOUT SECTION ===== */
-.main .hi-there {
+.main .hi-there.about-section {
   position: relative;
   margin-bottom: 120px;
   width: 100%;
-  background-color: var(--raxwebsitemallard);
+  background-color: var(--mallard);
 }
 
 .main .about-card {
@@ -939,10 +939,10 @@ html {
   min-width: 150px;
 }
 
-.main .heading-HI-THERE {
+.main .heading-kia-ora {
   font-family: var(--antonio-regular-64-font-family);
   font-weight: var(--antonio-regular-64-font-weight);
-  color: var(--raxwebsitefern-green);
+  color: var(--fern-green);
   font-size: var(--antonio-regular-64-font-size);
   opacity: 0.5;
   margin-bottom: 30px;
@@ -951,7 +951,7 @@ html {
 .main .i-m-rackley-nolan-a {
   font-family: var(--DM-mono-regular-21-font-family);
   font-weight: var(--DM-mono-regular-21-font-weight);
-  color: var(--raxwebsiteblack);
+  color: var(--black);
   font-size: 24px;
   line-height: 1.3;
   margin-bottom: 20px;
@@ -960,14 +960,14 @@ html {
 .main .profile-text {
   font-family: var(--familjen-grotesk-regular-21-font-family);
   font-weight: var(--familjen-grotesk-regular-21-font-weight);
-  color: var(--raxwebsiteblack);
+  color: var(--black);
   font-size: var(--familjen-grotesk-regular-21-font-size);
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
 .main .overlap-group-2 {
-  background-color: var(--raxwebsitepeppermint);
+  background-color: var(--peppermint);
   border-radius: 8px;
   padding: 15px;
   transition: transform 0.3s ease;
@@ -982,7 +982,7 @@ html {
 .main .text-wrapper-8 {
   font-family: var(--DM-mono-medium-18-font-family);
   font-weight: var(--DM-mono-medium-18-font-weight);
-  color: var(--raxwebsitemallard);
+  color: var(--mallard);
   font-size: 16px;
   margin-bottom: 5px;
 }
@@ -992,7 +992,7 @@ html {
 .main .heading-PROJECTS {
   font-family: var(--DM-mono-regular-21-font-family);
   font-weight: var(--DM-mono-regular-21-font-weight);
-  color: var(--raxwebsiteblack);
+  color: var(--black);
   font-size: 18px;
 }
 
@@ -1032,7 +1032,7 @@ html {
     max-width: 300px;
   }
   
-  .main .heading-HI-THERE {
+  .main .heading-hi-there {
     font-size: 42px;
   }
   
@@ -1082,7 +1082,7 @@ html {
   text-align: center;
   font-family: var(--antonio-regular-64-font-family);
   font-weight: var(--antonio-regular-64-font-weight);
-  color: var(--raxwebsitefern-green);
+  color: var(--fern-green);
   font-size: var(--antonio-regular-64-font-size);
 }
 
@@ -1098,8 +1098,8 @@ html {
   width: 100%;
   height: auto;
   padding: 60px 20px 20px;
-  background-color: var(--raxwebsitecod-gray);
-  color: var(--raxwebsitenero);
+  background-color: var(--cod-gray);
+  color: var(--nero);
 }
 
 .main .footer .overlap {
@@ -1123,7 +1123,7 @@ html {
 .main .footer .text-wrapper-3 {
   font-family: var(--DM-mono-medium-18-font-family);
   font-weight: var(--DM-mono-medium-18-font-weight);
-  color: var(--raxwebsitenero);
+  color: var(--nero);
   font-size: 18px;
   margin-bottom: 15px;
 }
@@ -1136,14 +1136,14 @@ html {
 .main .footer .link-upwork {
   font-family: var(--familjen-grotesk-regular-21-font-family);
   font-size: 16px;
-  color: var(--raxwebsitealto);
+  color: var(--alto);
   margin-bottom: 10px;
   transition: color 0.2s ease;
 }
 
 .main .footer a:hover div,
 .main .footer a:hover p {
-  color: var(--raxwebsitepixie-green);
+  color: var(--pixie-green);
 }
 
 .main .footer .container {
@@ -1156,7 +1156,7 @@ html {
 .main .footer .made-by-melissa-ng {
   font-family: var(--inter-regular-16-font-family);
   font-size: 14px;
-  color: var(--raxwebsitedusty-gray);
+  color: var(--dusty-gray);
   text-align: center;
 }
 
@@ -1283,12 +1283,12 @@ html {
     margin: 1rem 0;
   }
   
-  .main .heading-KIA-ORA,
+  .main .heading-hi-there,
   .main .heading-CURRENT,
   .main .heading-SERVICES,
   .main .heading-HAPPY,
   .main .heading-GET-IN,
-  .main .heading-HI-THERE {
+  .main .heading-hi-there {
     font-size: 36px;
   }
   
@@ -1463,7 +1463,7 @@ html {
 
 .modal-content h2 {
   font-family: var(--DM-mono-medium-32-font-family);
-  color: var(--raxwebsitemallard);
+  color: var(--mallard);
   font-size: 32px;
   margin-bottom: 30px;
   text-align: center;
@@ -1493,7 +1493,7 @@ html {
 .submit-button {
   width: 100%;
   padding: 15px 30px;
-  background-color: var(--raxwebsitemallard);
+  background-color: var(--mallard);
   color: white;
   font-family: var(--DM-mono-medium-16-font-family);
   border: none;
@@ -1503,7 +1503,7 @@ html {
 }
 
 .submit-button:hover {
-  background-color: var(--raxwebsitefern-green);
+  background-color: var(--fern-green);
 }
 
 /* ===== SERVICES SECTION ===== */
@@ -1527,7 +1527,7 @@ html {
     margin-top: 0;
     font-family: var(--antonio-regular-24-font-family);
     font-weight: var(--antonio-regular-24-font-weight);
-    color: var(--raxwebsitefern-green);
+    color: var(--fern-green);
     font-size: 28px;
     line-height: 1.2;
     margin-bottom: 10px;
@@ -1562,7 +1562,7 @@ html {
   .main .heading-product {
     font-family: var(--antonio-regular-24-font-family);
     font-weight: var(--antonio-regular-24-font-weight);
-    color: var(--raxwebsitefern-green);
+    color: var(--fern-green);
     font-size: 24px;
     line-height: 1.2;
     margin-top: 20px;
@@ -1577,7 +1577,7 @@ html {
     font-family: var(--familjen-grotesk-regular-21-font-family);
     font-size: 18px;
     line-height: 1.6;
-    color: var(--raxwebsiteblack);
+    color: var(--black);
   }
   
   .main .if-you-re-looking,
