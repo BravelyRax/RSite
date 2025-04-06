@@ -1506,6 +1506,33 @@ html {
   background-color: var(--fern-green);
 }
 
+/* reCAPTCHA styling */
+.recaptcha-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.recaptcha-container small {
+  margin-top: 8px;
+  font-family: var(--DM-mono-medium-16-font-family);
+  font-size: 14px;
+  color: #666;
+}
+
+/* Make sure reCAPTCHA works on mobile */
+@media screen and (max-width: 480px) {
+  .g-recaptcha {
+    transform-origin: left 0;
+    transform: scale(0.9);
+  }
+  
+  .recaptcha-container {
+    align-items: flex-start;
+  }
+}
+
 /* ===== SERVICES SECTION ===== */
 /* Services Layout for Larger Screens */
 @media screen and (min-width: 769px) {

@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="combined.css" />
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
     <title>Rackley Nolan | Product • Sales • Early Stage Operations</title>
+    <!-- Add reCAPTCHA script -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+      // Function to handle reCAPTCHA errors if they occur
+      function recaptchaError() {
+        console.error('reCAPTCHA error occurred');
+      }
+    </script>
   </head>
   <body>
     <div class="main">
@@ -300,7 +308,9 @@
         <span class="close-modal">&times;</span>
         <h2>Get in Touch</h2>
         
-        <form action="https://submit-form.com/oTQppKOy">
+        <form action="https://submit-form.com/oTQppKOy" method="POST">
+          <!-- Hidden field for FormSpark reCAPTCHA integration -->
+          <input type="hidden" name="_captcha_revalidate" value="true" />
           <div class="form-group">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Your name" required />
@@ -314,6 +324,15 @@
           <div class="form-group">
             <label for="message">Message</label>
             <textarea id="message" name="message" placeholder="How can I help you?" rows="5" required></textarea>
+          </div>
+          
+          <!-- Add reCAPTCHA widget -->
+          <div class="form-group recaptcha-container">
+            <div class="g-recaptcha" 
+                 data-sitekey="6LfCuQsrAAAAALUhSYhyVSJ7cTk5KqOKjeifEzM0" 
+                 data-theme="light"
+                 data-error-callback="recaptchaError"></div>
+            <small>This helps prevent spam submissions</small>
           </div>
           
           <button type="submit" class="submit-button">Send Message</button>
@@ -332,6 +351,22 @@
         // Get the contact buttons
         var contactButton = document.querySelector('.contact-2');
         var workWithMeButtons = document.querySelectorAll('.background-3');
+        
+        // Get the form
+        var contactForm = document.querySelector('#contact-modal form');
+        
+        // Form validation for reCAPTCHA
+        if (contactForm) {
+          contactForm.addEventListener('submit', function(event) {
+            var recaptchaResponse = grecaptcha.getResponse();
+            
+            if (!recaptchaResponse) {
+              // No reCAPTCHA response, prevent form submission
+              event.preventDefault();
+              alert('Please complete the reCAPTCHA verification.');
+            }
+          });
+        }
         
         // Add click event to contact button
         if (contactButton) {
